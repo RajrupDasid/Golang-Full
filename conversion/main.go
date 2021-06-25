@@ -2,7 +2,9 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -12,6 +14,5 @@ func main() {
 	//This is how we can assign that value to another variable /// This is callaed conversion
 	var j float64
 	j = float64(i)
-
 	fmt.Printf("%v,%T", j, j)
 }
